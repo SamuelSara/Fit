@@ -3,6 +3,10 @@
     "site": "be-fit-us",
 
     "public": "public",
-    ...
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
